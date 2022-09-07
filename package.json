@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.1",
+    "dotenv": "^16.0.2",
+    "hardhat": "^2.11.0"
+  },
+  "name": "hardhat-fund-me",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.",
+  "version": "1.0.0",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "ethers": "^5.7.0",
+    "hardhat-deploy": "^0.11.13",
+    "mocha": "^10.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
